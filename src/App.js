@@ -48,7 +48,7 @@ const App = () => {
   
     setCalc({
       ...calc,
-      number: !calc.num.toString().includes(".") ? calc.number + value : calc.number,
+      number: !calc.number.toString().includes(".") ? calc.number + value : calc.number,
     });
   };
 
